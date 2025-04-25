@@ -13,6 +13,19 @@ function App() {
               <input type="text" name="usuario" placeholder="@username" readonly/>
               <button>Buscar</button>
             </div>
+            <div className="perfil">
+                <img 
+                  src="https://avatars.githubusercontent.com/u/105030970?v=4" 
+                  className="imgPerfil"
+                  alt=""
+                />
+                <div>
+                  <h3>Victor Teixeira Silva</h3>
+                  <span>@victorteixeirasilva</span>
+                  <p>Descrição</p>
+                </div>
+            </div>
+            <hr/>
           </div>
         </div>
     </div>
