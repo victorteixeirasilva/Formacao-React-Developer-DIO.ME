@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 const App = () => {
     return (
         <div className="App">
