@@ -1,9 +1,12 @@
+import gitlogo from "../../assets/github.png"
+import { Container } from "./styles"
 
 const Home = () => {
   return (
-    <div className="App">
+    <Container>
+      <img src={gitlogo} width={72} height={72} alt=""/>
 
-    </div>
+    </Container>
   );
 }
 

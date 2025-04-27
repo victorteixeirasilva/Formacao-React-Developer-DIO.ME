@@ -9,5 +9,6 @@ export default createGlobalStyle`
 
     body {
         background-color: #0d1117;
+        color: white;
     }
 `
