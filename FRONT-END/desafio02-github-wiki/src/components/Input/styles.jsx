@@ -13,7 +13,8 @@ export const InputContainer = styled.div`
         background-color: transparent;
         border: 0;
         height: 62px;
-        width: 100%;
+        width: 95%;
+        border-radius: 20px;
         color: white;
         font-size: 18px;
         padding: 0 10px;
