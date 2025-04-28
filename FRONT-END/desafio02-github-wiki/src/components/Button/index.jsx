@@ -2,9 +2,9 @@ import React from 'react'
 
 import { ButtonContainer } from "./styles"
 
-const Button = () => {
+const Button = ({funcao}) => {
   return (
-    <ButtonContainer>Buscar</ButtonContainer>
+    <ButtonContainer onClick={funcao}>Buscar</ButtonContainer>
   )
 }
 
