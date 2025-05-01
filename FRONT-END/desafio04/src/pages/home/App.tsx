@@ -5,8 +5,7 @@ import Botao from '../../components/Botao';
 
 const Home = () => {
   return (
-    <div className="App">
-      <HomeCont>
+    <HomeCont>
         <Conteiner>
           <Titulo>Login</Titulo>
           <InputAndButtonContainer>
@@ -15,8 +14,7 @@ const Home = () => {
             <Botao nome='Entrar'/>
           </InputAndButtonContainer>
         </Conteiner>
-      </HomeCont>
-    </div>
+    </HomeCont>
   );
 };
 

@@ -8,4 +8,9 @@ export default createGlobalStyle`
     font-family: 'Arial', sans-serif; /* Defina uma fonte global */
   }
 
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
 `

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HomeCont = styled.div`
     background-color: rebeccapurple;
-    width: 100vh;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -13,13 +13,14 @@ export const HomeCont = styled.div`
 
 export const Conteiner = styled.div`
     background-color: white;
-    width: 50vh;
-    height: 32vh;
+    min-width: 50vh;
+    min-height: 25vh;
     border-radius: 20px;
     padding: 10px 30px;
 `
 
 export const Titulo = styled.h1`
+    margin: 20px 0;
     color: rebeccapurple;
     font-size: 40px;
 `
