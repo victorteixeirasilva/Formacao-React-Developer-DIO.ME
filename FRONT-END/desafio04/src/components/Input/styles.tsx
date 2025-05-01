@@ -11,6 +11,10 @@ export const InputContainer = styled.div`
         border-radius: 30px;
     }
 
+    p {
+        color: red;
+    }
+
     input:hover {
         transition: 0.1s;
         width: 450px;

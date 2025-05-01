@@ -2,12 +2,14 @@ import React from 'react'
 import {BotaoContainer} from "./styles"
 
 
-  
+const boa = () => {
+  alert("boaaa")
+}
 
-const Botao = ({ nome }: { nome: string })  => {
+const Botao = ({ nome, disabled }: { nome: string, disabled: boolean })  => {
   return (
     <BotaoContainer>
-       <button>{nome}</button>     
+       <button disabled={disabled} onClick={boa}>{nome}</button>     
     </BotaoContainer>
   )
 }

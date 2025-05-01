@@ -14,6 +14,7 @@ export const BotaoContainer = styled.div`
         align-items: center;
         justify-content: center;
         align-content: center;
+        
     }
 
     button:hover {
@@ -21,5 +22,10 @@ export const BotaoContainer = styled.div`
         color: rebeccapurple;
         background-color: transparent;
         border: 2px solid rebeccapurple;
+    }
+
+    button:disabled {
+        background-color: gray;
+        color: black;
     }
 `
